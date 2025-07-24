@@ -3,6 +3,7 @@ import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
+import CostCalculator from '@/components/CostCalculator';
 
 export default function Index() {
   return (
@@ -184,6 +185,9 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      {/* Cost Calculator */}
+      <CostCalculator />
 
       {/* Contact Form */}
       <section id="contact" className="py-20 bg-white">
